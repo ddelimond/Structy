@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Uncompressed.iml" filepath="$PROJECT_DIR$/Uncompressed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UncompressedJAVA.iml" filepath="$PROJECT_DIR$/UncompressedJAVA.iml" />
     </modules>
   </component>
 </project>
