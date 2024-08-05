@@ -8,12 +8,10 @@ public class main {
         practice.insert(4);
         practice.insert(5);
         practice.print();
-        practice.remove();
+        practice.removeAt(3);
         System.out.println("------------");
         practice.print();
-        practice.remove();
-        System.out.println("------------");
-        practice.insert(100);
-        practice.print();
+        System.out.println(practice.indexOf(2));
+
     }
 }

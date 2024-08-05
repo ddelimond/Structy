@@ -37,19 +37,18 @@ public class myArray {
 
 
 
-    public void remove( ){
+    public void removeAt( int index){
 
-        if(arr.length == count){
-
-            int[] newArr  = new int [count-1];
-
-            for(int i=0 ; i < count-1 ; i++){
-                newArr[i] = arr[i];
-            }
-
-            arr = newArr;
-
+        if( index < 0 || index > count){
+            throw new IllegalArgumentException();
         }
-        count = count-1;
+
+        for(int i = index; i < count; i++){
+
+            arr[i] = arr[i+1];
+
+            count--;
+        }
+
     }
 }
