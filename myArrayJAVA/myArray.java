@@ -51,4 +51,19 @@ public class myArray {
         }
 
     }
+
+    public int indexOf( int index){
+
+        if( index < 0 || index > count){
+            throw new IllegalArgumentException();
+        }
+
+        for(int i = 0; i < count; i++){
+
+            if(i ==  index){
+                return arr[index];
+            }
+        }
+        return -1;
+    }
 }
