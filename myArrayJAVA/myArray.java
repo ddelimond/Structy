@@ -52,12 +52,12 @@ public class myArray {
 
     }
 
-    public int indexOf( int index){
+    public int indexOf( int item){
 
         for(int i = 0; i < count; i++){
 
-            if(i ==  index){
-                return arr[index];
+            if(arr[i] ==  item){
+                return i;
             }
         }
         return -1;
